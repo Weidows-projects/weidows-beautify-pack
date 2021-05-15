@@ -3,7 +3,7 @@
  * @Author: Weidows
  * @Date: 2021-05-14 04:28:22
  * @LastEditors: Weidows
- * @LastEditTime: 2021-05-15 10:25:34
+ * @LastEditTime: 2021-05-15 10:47:32
  * @FilePath: \weidows-beautify-pack\README.md
  * @Description:
  * @!: *********************************************************************
@@ -15,8 +15,8 @@
 
 </h1>
 
-[github-shield]: https://img.shields.io/github/stars/Weidows-projects/vscode-weidows-theme?style=social
-[github-url]: https://github.com/Weidows-projects/vscode-weidows-theme
+[github-shield]: https://img.shields.io/github/stars/Weidows-projects/weidows-beautify-pack?style=social
+[github-url]: https://github.com/Weidows-projects/weidows-beautify-pack
 
 <!-- [vscode-shield]: https://img.shields.io/visual-studio-marketplace/r/Weidows.theme-weidows?logo=visual-studio-code&style=social
 [vscode-url]: https://marketplace.visualstudio.com/items?itemName=Weidows.theme-weidows -->
@@ -33,8 +33,8 @@
 
 # 样式
 
-![](https://cdn.jsdelivr.net/gh/Weidows-projects/vscode-weidows-theme/images/1.png)
-![](https://cdn.jsdelivr.net/gh/Weidows-projects/vscode-weidows-theme/images/2.png)
+![](https://cdn.jsdelivr.net/gh/Weidows-projects/weidows-beautify-pack/images/1.png)
+![](https://cdn.jsdelivr.net/gh/Weidows-projects/weidows-beautify-pack/images/2.png)
 
 ---
 
