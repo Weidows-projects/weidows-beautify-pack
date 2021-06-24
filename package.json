@@ -30,5 +30,8 @@
     "Weidows.theme-weidows",
     "be5invis.vscode-custom-css",
     "s-nlf-fh.glassit"
-  ]
+  ],
+  "dependencies": {
+    "vsce": "1.88.0"
+  }
 }

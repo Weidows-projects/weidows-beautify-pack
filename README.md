@@ -3,7 +3,7 @@
  * @Author: Weidows
  * @Date: 2021-05-14 04:28:22
  * @LastEditors: Weidows
- * @LastEditTime: 2021-06-24 11:43:29
+ * @LastEditTime: 2021-06-24 17:45:06
  * @FilePath: \weidows-beautify-pack\README.md
  * @Description:
  * @!: *********************************************************************
@@ -26,7 +26,7 @@
 
 > ##  VScode 整合美化包
 
-> # For more information, [click here][github-url]
+> # For more information, [Click here][github-url]
 
 ---
 
