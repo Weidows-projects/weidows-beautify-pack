@@ -1,3 +1,7 @@
-images
 node_modules
+LICENSE
 .github
+.gitignore
+
+css
+images
