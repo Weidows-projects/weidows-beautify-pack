@@ -1,9 +1,8 @@
 name: auto-publish
 
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [published]
 
 jobs:
   auto-publish:

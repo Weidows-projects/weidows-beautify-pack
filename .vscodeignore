@@ -1,7 +1,10 @@
+# Extension
 node_modules
 LICENSE
 .github
 .gitignore
+
+# *****************************************************************************
 
 css
 images
