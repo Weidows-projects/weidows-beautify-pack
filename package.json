@@ -22,16 +22,16 @@
     "url": "https://github.com/Weidows-projects/weidows-beautify-pack"
   },
   "homepage": "https://github.com/Weidows-projects/weidows-beautify-pack",
-  "scripts": {
-    "package": "vsce package",
-    "publish": "vsce publish"
-  },
   "extensionPack": [
     "Weidows.theme-weidows",
     "be5invis.vscode-custom-css",
     "s-nlf-fh.glassit"
   ],
-  "dependencies": {
-    "vsce": "1.88.0"
+  "devDependencies": {
+    "vsce": "^1.96.3"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
   }
 }
