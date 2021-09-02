@@ -33,6 +33,9 @@
   "scripts": {
     "package": "vsce package",
     "publish": "vsce publish",
-    "release": "npm version release"
+    "major": "npm version major",
+    "minor": "npm version minor",
+    "patch": "npm version patch",
+    "prerelease": "npm version prerelease"
   }
 }
