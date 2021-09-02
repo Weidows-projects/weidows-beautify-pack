@@ -3,7 +3,7 @@
   "displayName": "Weidows Beautify Pack",
   "description": "VScode整合美化包",
   "license": "MIT",
-  "version": "1.1.4-1",
+  "version": "1.1.4-0",
   "publisher": "Weidows",
   "engines": {
     "vscode": "^1.52.0"
@@ -32,6 +32,7 @@
   },
   "scripts": {
     "package": "vsce package",
-    "publish": "vsce publish"
+    "publish": "vsce publish",
+    "release": "npm version release"
   }
 }
