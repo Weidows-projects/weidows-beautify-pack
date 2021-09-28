@@ -3,7 +3,7 @@
  * @Author: Weidows
  * @Date: 2021-05-14 04:28:22
  * @LastEditors: Weidows
- * @LastEditTime: 2021-06-24 17:45:06
+ * @LastEditTime: 2021-09-29 00:48:02
  * @FilePath: \weidows-beautify-pack\README.md
  * @Description:
  * @!: *********************************************************************
@@ -25,8 +25,7 @@
 [![VSCode Plugin][vscode-shield]][vscode-url]
 
 > ##  VScode 整合美化包
-
-> # For more information, [Click here][github-url]
+> ## For more information, [Click here][github-url]
 
 ---
 
@@ -57,3 +56,10 @@
 ---
 
 2. 按 <kbd>Ctrl + Shift + P</kbd> 执行 `Enable custom CSS and JS` 命令.
+
+
+![分割线](https://cdn.jsdelivr.net/gh/Weidows/Images/img/divider.png)
+
+# 引用项目
+
+> [pcwalton/vscode-powerline](https://github.com/pcwalton/vscode-powerline)
