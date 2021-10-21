@@ -226,7 +226,7 @@ body {
     --powerline-insert-bg: #00dfff;
     --powerline-replace-bg: #af0000;
     --powerline-visual-bg: #ffaf00;
-    /* --powerline-inner-fg: #ffffff; */
+    --powerline-inner-fg: ##32faf9;
     --powerline-inner-bg: #202020;
     --powerline-inner-bg-hl: #303030;
     --powerline-second-segment-fg: #ffffff;
