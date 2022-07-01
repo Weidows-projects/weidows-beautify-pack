@@ -35,7 +35,7 @@
 ![](https://cdn.jsdelivr.net/gh/Weidows-projects/weidows-beautify-pack/images/2.png)
 
 
-![分割线](https://cdn.jsdelivr.net/gh/Weidows/Images/img/divider.png)
+![分割线](https://www.helloimg.com/images/2022/07/01/ZM0SoX.png)
 
 
 # 应用美化
@@ -58,7 +58,7 @@
 2. 按 <kbd>Ctrl + Shift + P</kbd> 执行 `Enable custom CSS and JS` 命令.
 
 
-![分割线](https://cdn.jsdelivr.net/gh/Weidows/Images/img/divider.png)
+![分割线](https://www.helloimg.com/images/2022/07/01/ZM0SoX.png)
 
 # 引用项目
 
