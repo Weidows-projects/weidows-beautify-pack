@@ -3,7 +3,7 @@
  * @Author: Weidows
  * @LastEditors: Weidows
  * @Date: 2022-01-19 14:49:06
- * @LastEditTime: 2024-04-21 06:12:35
+ * @LastEditTime: 2024-05-13 18:54:17
  * @FilePath: \weidows-beautify-pack\css\lights-on.css
  * @Description:
  * @:
@@ -334,20 +334,50 @@
   color: #fff !important;
 }
 
-/* 光标颜色 */
-.monaco-editor .cursor {
-  background: linear-gradient(to bottom, #03edf9, #fc28a8);
-  /* color: #1b2f2f; */
+/* Cursor */
+/* https://www.bilibili.com/video/BV1pZ421779U/ */
+div.cursor {
+  /* animation: 25s linear infinite alternate bp-animation; */
   /* border-color: #03edf9; */
-  /* box-shadow: 0 0 15px 2px #00c3ff; */
-  /* animation: cursor 0.7s infinite linear; */
+  /* box-shadow: 0 0 15px 2px
+  #00c3ff; */
+  background: linear-gradient(#03edf9,lime,#fc28a8);
+  border-radius: 2px;
+  overflow: visible !important;
 }
 
-/* @keyframes cursor {
+div.cursor::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  background-size: 100% 1000%;
+  border-radius: 3px;
+  transform: scale(140%, 120%);
+  filter: blur(4px) brightness(200%);
+  z-index: -1;
+}
+
+@keyframes bp-animation {
   0% {
-    box-shadow: 0 0 5px 0 #00c3ff;
+    background-position: 0 0;
+  }
+  20% {
+    background-position: 0 200%;
+  }
+  40% {
+    background-position: 0 400%;
+  }
+  60% {
+    background-position: 0 600%;
+  }
+  80% {
+    background-position: 0 800%;
   }
   100% {
-    box-shadow: 0 0 35px 5px #fc28a8;
+    background-position: 0 1000%;
   }
-} */
+}
