@@ -3,7 +3,7 @@
  * @Author: Weidows
  * @LastEditors: Weidows
  * @Date: 2022-01-19 14:49:06
- * @LastEditTime: 2024-05-13 18:54:17
+ * @LastEditTime: 2024-05-14 16:16:18
  * @FilePath: \weidows-beautify-pack\css\lights-on.css
  * @Description:
  * @:
@@ -276,8 +276,12 @@
   padding: 20px;
   transition: opacity 1s !important;
   opacity: 1;
+
   /* 性能损耗大 */
   /* animation: tooltippulse 4s infinite linear; */
+
+  --vscode-editorHoverWidget-background: transparent !important;
+  backdrop-filter: blur(20px) brightness(110%);
 }
 
 .monaco-editor .monaco-hover.hidden {
@@ -380,4 +384,21 @@ div.cursor::after {
   100% {
     background-position: 0 1000%;
   }
+}
+
+/* https://www.bilibili.com/video/BV1ot421F7E8/ */
+span.mtk16 {
+  text-shadow: 0 0 20px #4ec9b0;
+}
+
+div.quick-input-widget {
+  --vscode-quickInput-background: transparent !important;
+
+  backdrop-filter: blur(20px) brightness(140%);
+}
+
+div.sticky-widget {
+  --vscode-editorStickyScroll-background: transparent !important;
+
+  backdrop-filter: blur(20px) brightness(110%);
 }
