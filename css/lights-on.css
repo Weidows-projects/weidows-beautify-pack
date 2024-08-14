@@ -3,7 +3,7 @@
  * @Author: Weidows
  * @LastEditors: Weidows
  * @Date: 2022-01-19 14:49:06
- * @LastEditTime: 2024-05-14 16:16:18
+ * @LastEditTime: 2024-08-14 17:43:25
  * @FilePath: \weidows-beautify-pack\css\lights-on.css
  * @Description:
  * @:
@@ -253,15 +253,16 @@
   display: inline-block;
 
   transition: 0.4s transform;
-  /* transform: rotateX(0); */
+  transform: rotateX(0);
 }
 
+/* .mtk3:hover, */
+/* .mtk6:hover, */
+.mtk7:hover,
 .mtk8:hover,
 .mtk9:hover,
-.mtk3:hover,
-.mtk6:hover,
-.mtk7:hover,
-.mtk10:hover {
+.mtk10:hover,
+.mtk15:hover {
   text-shadow: 2 2 15px;
   transform: scale(1.2);
 }
@@ -360,7 +361,6 @@ div.cursor::after {
   background: inherit;
   background-size: 100% 1000%;
   border-radius: 3px;
-  transform: scale(140%, 120%);
   filter: blur(4px) brightness(200%);
   z-index: -1;
 }
